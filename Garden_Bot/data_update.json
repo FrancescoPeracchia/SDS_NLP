@@ -1,0 +1,49 @@
+{
+    "intents": [
+      {
+        "tag": "DB-UPDATE",
+        "patterns": [
+          "Insert this flower in your memory",
+          "Save this plant",
+          "Save this plant in your memory",
+          "Insert this flower in your data base"
+        ],
+        "responses": [
+          "YES,done",
+          "NO, is impossible, flowers/plant is not a classificable one"
+        ]
+      },
+      {
+        "tag": "FLOWERING-UPDATE",
+        "patterns": [
+          "Save this date for the flowering",
+          "The next flowering will be in..."
+        ],
+        "responses": [
+          "Next flowering inserted",
+          "Saved"
+        ]
+      },
+      {
+        "tag": "LAST-WATERING-UPDATE",
+        "patterns": [
+          "Save this moment for the last watering",
+          "This plant it was watered"
+        ],
+        "responses": [
+          "Last watering inserted"
+          
+        ]
+      },
+      {
+        "tag": "NEXT-CROP-UPDATE",
+        "patterns": [
+          "Save this moment for the next crop"
+        ],
+        "responses": [
+          "Saved this moment like next crop"
+          
+        ]
+      }
+    ]
+  }

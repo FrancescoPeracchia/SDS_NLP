@@ -1,0 +1,70 @@
+{
+    "intents": [
+      {
+        "tag": "DB-CHECK",
+        "patterns": [
+          "Can you find this flower in your memory?",
+          "Do you know this plant?",
+          "Is present this plant in your memory?",
+          "Is present this flower in your data base?"
+        ],
+        "responses": [
+          "YES i know it",
+          "NO, is not present in my Data Base"
+        ]
+      },
+      {
+        "tag": "FLOWERING-CHECK",
+        "patterns": [
+          "when this plant will bloom?",
+          "Is this plant flowering?",
+          "when will be the next bloom?",
+          "When will be the next flowering period?"
+        ],
+        "responses": [
+          "It will be in",
+          "In this period"
+        ]
+      },
+      {
+        "tag": "HUMIDITY-CHECK",
+        "patterns": [
+          "Tell me the humidity of this place!",
+          "How much humidity is there?"
+        ],
+        "responses": [
+          "The humidity is... "
+        ]
+      },
+      {
+        "tag": "TEMPERATURE-CHECK",
+        "patterns": [
+          "what's the temperature?"
+        ],
+        "responses": [
+          "There is..."
+        ]
+      },
+      {
+        "tag": "LAST-WATERING",
+        "patterns": [
+          "when was it last watered?"
+        ],
+        "responses": [
+          "It was watered recently",
+          "It was not watered recently"
+
+        ]
+      },
+      {
+        "tag": "NEXT-CROP",
+        "patterns": [
+          "when will the next harvest be?"
+        ],
+        "responses": [
+          "Soon",
+          "already done recently"
+        ]
+      }
+    ]
+  }

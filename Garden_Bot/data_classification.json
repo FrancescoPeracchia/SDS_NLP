@@ -1,0 +1,115 @@
+{
+    "intents": [
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye",
+           "See you later",
+            "Goodbye"
+          ],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"]
+        ,
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "action",
+        "patterns": [
+          "Which action can you do?",
+          "What kinds of jobs do you do?",
+          "What do you do?",
+          "Can you help me?"
+        ],
+        "responses": [
+          "I can do those actions :  MOVE TO, TURN ON, TURN OFF, CHECK OR UPDATE the status of a plant, if i have already info in my Database i can tell you some information about : FLOWERING, HUMIDITY, TEMPERATURE, LAST-WATERING, NEXT-CROP",
+          "My action list is : MOVE TO, TURN ON, TURN OFF, CHECK OR UPDATE INFORMATION ABOUT FLOWERING, HUMIDITY, TEMPERATURE, LAST-WATERING, NEXT-CROP "
+        ]
+      },
+      {
+        "tag": "MOVE",
+        "patterns": [
+          "Go way from me",
+          "Move from here",
+          "Can you go there?",
+          "do you know this place?"
+        ],
+        "responses": [
+          "I'm moving",
+          "Of course "
+        ]
+      },
+      {
+        "tag": "ON",
+        "patterns": [
+          "Switch on",
+          "Rose wake up",
+          "Hey Rose ",
+          "Hello"
+        ],
+        "responses": [
+          "I'm on, tell me what you want",
+          "Hello, thanks for visiting"
+        ]
+      },
+      {
+        "tag": "OFF",
+        "patterns": [
+          "Switch off",
+          "goodnight, sleep well",
+          "good night"
+          
+        ],
+        "responses": [
+          "See you"
+        ]
+      },
+      {
+        "tag": "CHECK",
+        "patterns": [
+          "Can you find this flower in your memory?",
+          "Do you know this plant?",
+          "Is present this plant in your memory?",
+          "Is present this flower in your data base?",
+          "when this plant will bloom?",
+          "Is this plant flowering?",
+          "when will be the next bloom?",
+          "When will be the next flowering period?",
+          "Tell me the humidity of this place!",
+          "How much humidity is there",
+          "what's the temperature?",
+          "when was it last watered?",
+          "when will the next harvest be?"
+
+          
+        ],
+        "responses": [
+          "YES, i will",
+          "NO, i don't know"
+        ]
+      },
+      {
+        "tag": "UPDATE",
+        "patterns": [
+          "Insert this flower in your memory",
+          "Save this plant",
+          "Save this plant in your memory",
+          "Insert this flower in your data base",
+          "Save this date for the flowering",
+          "The next flowering will be in...",
+          "Save this moment for the next crop",
+          "Save this moment for the last watering",
+          "This plant it was watered"
+        ],
+        "responses": [
+          "YES, done",
+          "No, is impossible"
+        ]
+      }
+    ]
+  }

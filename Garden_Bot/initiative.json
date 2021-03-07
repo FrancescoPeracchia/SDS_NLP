@@ -1,0 +1,13 @@
+{
+    "intents": [
+      {
+        "tag": "random",
+        "responses": [
+          "do you need something else?",
+          "and now, what do you want?",
+          "Bye!",
+          "Have a nice day!"
+        ]
+      }
+    ]
+  }
