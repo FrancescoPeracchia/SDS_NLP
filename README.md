@@ -1,8 +1,6 @@
 # SDS_NLP
 Spoken Dialog System
-
-
-NLP :
-
-
-Bag of Words solution for Simple Chat Bot
+Speech to Text
+Bag of Words
+Encoding
+Sentence Classification
