@@ -1,7 +1,9 @@
 # SDS_NLP
 
-**SOLUTION** [report](AI.pdf)
+**SOLUTION** :  [report](AI.pdf)
 
+
+**PIPELINE**
 Spoken Dialog System 
 
 Speech to Text
