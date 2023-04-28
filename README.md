@@ -1,6 +1,6 @@
 # SDS_NLP
 
-read me [report](report.pdf)
+read me [report](AI.pdf)
 
 Spoken Dialog System 
 
